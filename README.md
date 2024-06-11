@@ -1,9 +1,14 @@
 # Gitter_Keys
-Gitter is a open source keymatrix projects. Gitter_Keys is the mechanicla keys key version of it. 
+Gitter is an open-source key matrix project. Gitter_Keys is the mechanical keys key version of it. 
 
-# BUilding guide
+Gitter is designed to easy build. 
+It uses raspberry pi pico as controller, which you can easily get with 4 to 5 Euros
+The smd components are easy to solder even for beginner. 
+
+
+# BOM
+
+
+# Building guide
 to be continue
-
-# Bom
-
 
