@@ -10,7 +10,7 @@ p_iAddress(address), p_pI2C(i2c), p_iSizeX(sizeX), p_iSizeY(sizeY), p_iElementNu
 
   resetKeyEvent();
 
-  // vTestLed(); // this will make pico die!
+  // vTestLed(); // this will make pico die! Bcs Wire is not initialized at all !
 }
 
 Cell::~Cell()
@@ -20,6 +20,13 @@ Cell::~Cell()
 }
 
 /*-----------------------------------------------------------------*/
+
+bool Cell::begin()
+{
+  p_pI2C->beginTransmission(p_iAddress);
+  present = (p_pI2C->endTransmission() == 0);
+  return present;
+}
 
 void Cell::resetKeyEvent()
 {
@@ -33,6 +40,8 @@ void Cell::resetKeyEvent()
 
 void Cell::vGetKey()
 { 
+  if (!present) return; // hardware is missing 
+
   uint8_t eventIndex = 0;
   uint8_t newAction = 0;
 

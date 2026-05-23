@@ -47,8 +47,18 @@ int prevLedBuffer[ledNum];
 
 void setup() 
 {
-
-  uint8_t x, y;
+  // I2C setup  
+  Wire.setSDA(I2C_SDA);
+  Wire.setSCL(I2C_SCL);
+  Wire.begin();
+  // Initialize each cell and check if it's there
+  for (int i=0; i<cellRows; i++)
+  {
+    for (int j=0; j<cellCols; j++)
+    {
+      cells[i][j].begin();
+    }
+  }
 
   // 基础设置 保留
   USBDevice.setManufacturerDescriptor(mfgstr);
@@ -56,10 +66,6 @@ void setup()
   USBDevice.setSerialDescriptor(serialstr);
 
   Serial.begin(115200);
-
-  Wire.setSDA(I2C_SDA);
-  Wire.setSCL(I2C_SCL);
-  Wire.begin();
 
   mdp.isMonome = true;
   mdp.deviceID = deviceID;

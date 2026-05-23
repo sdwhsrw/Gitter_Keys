@@ -31,6 +31,9 @@ public:
   Cell(uint8_t address, TwoWire *i2c, uint8_t sizeX=4, uint8_t sizeY=4);
   ~Cell();
 
+  // I2C 
+  bool present = false;
+  bool begin();
 
   // key
   uint8_t p_iKeyEvent[KEY_EVENT_MAXNUM][3]; // {event type, x, y}
@@ -38,7 +41,6 @@ public:
   
   void resetKeyEvent();
   void vGetKey(); // get all key actions updated
-  
 
   // led
   void vSetLed(uint8_t x, uint8_t y, uint8_t level); // set Singel Led
