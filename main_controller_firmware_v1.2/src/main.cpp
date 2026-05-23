@@ -7,10 +7,6 @@
 #include "Cell.h"
 #include "MonomeSerialDevice.h"
 
-#define NUM_ROWS 8   // DIM_Y number of rows of keys down
-#define NUM_COLS 8  // DIM_X number of columns of keys across
-#define NUM_LEDS NUM_ROWS* NUM_COLS
-
 #define I2C_SDA 8
 #define I2C_SCL 9
 
@@ -30,24 +26,27 @@ char mfgstr[32] = "monome";
 char prodstr[32] = "monome";
 char serialstr[32] = "m4216124";
 
+// Led / Cell Info
+constexpr uint8_t ledRows = 8;
+constexpr uint8_t ledCols = 8;
+constexpr uint8_t cellSize = 4;
+constexpr uint8_t cellRows = ledRows / cellSize;
+constexpr uint8_t cellCols = ledCols / cellSize;
+constexpr uint16_t ledNum = ledRows * ledCols;
+constexpr uint16_t cellNum = cellRows * cellCols;
+
 // Monome class setup
 MonomeSerialDevice mdp;
-Cell cells[NUM_ROWS / 4][NUM_COLS / 4] = {{Cell(0x01, &Wire), Cell(0x02, &Wire)},
-                                          {Cell(0x03, &Wire), Cell(0x04, &Wire)}};
-Grid g1((Cell *)cells, NUM_COLS / 4, NUM_COLS / 4); // 顺序问题？？？？？？？？？？？？？？？？？？？
+Cell cells[cellRows][cellCols] = {{Cell(0x01, &Wire), Cell(0x02, &Wire)},
+                                  {Cell(0x03, &Wire), Cell(0x04, &Wire)}};
+Grid g1((Cell *)cells, cellCols, cellRows); 
 
-int prevLedBuffer[NUM_COLS*NUM_ROWS];
+int prevLedBuffer[ledNum];
 
 
 
 void setup() 
 {
-  // g1.vSetAllLedOn();
-  // g1.vUpdateGridLed();
-  // delay(500);
-  // g1.vSetAllLedOff();
-  // g1.vUpdateGridLed();
-  // delay(500);
 
   uint8_t x, y;
 
@@ -64,12 +63,12 @@ void setup()
 
   mdp.isMonome = true;
   mdp.deviceID = deviceID;
-  mdp.setupAsGrid(NUM_ROWS, NUM_COLS);
+  mdp.setupAsGrid(ledRows, ledCols);
   monomeRefresh = 0; //elapsedMillis对象 重置计时器
   isInited = true;
 
   int var = 0;
-  // usb接收并处理8次
+  //? wait for ready ?
   while (var < 8) 
   {
     mdp.poll();
@@ -90,9 +89,6 @@ void setup()
   delay(500);
   g1.vSetAllLedOff();
   delay(500);
-
-
-
 }
 
 void loop() 
@@ -112,7 +108,7 @@ void sendLeds()
 {
   uint8_t value, prevValue = 0;
   // bool updateFlag = false;
-  for (int i = 0; i < NUM_ROWS * NUM_COLS; i++)
+  for (int i = 0; i < ledNum; i++)
   {
     value = mdp.leds[i];
     prevValue = prevLedBuffer[i];
