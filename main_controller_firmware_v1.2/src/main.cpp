@@ -1,11 +1,14 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <elapsedMillis.h>
-#include <Adafruit_TinyUSB.h> 
+#include <tusb.h>
 
 #include "Grid.h"
 #include "Cell.h"
 #include "MonomeSerialDevice.h"
+
+// usb config 
+#include "custom_tusb_config.h"
 
 #define I2C_SDA 8
 #define I2C_SCL 9
@@ -20,11 +23,6 @@ elapsedMillis monomeRefresh; // timer
 // set your monome device name here
 String deviceID = "neo-monome";
 String serialNum = "m4216124";
-
-// DEVICE INFO FOR TinyUSB
-char mfgstr[32] = "monome";
-char prodstr[32] = "monome";
-char serialstr[32] = "m4216124";
 
 // Led / Cell Info
 constexpr uint8_t ledRows = 8;
@@ -60,12 +58,9 @@ void setup()
     }
   }
 
-  // 基础设置 保留
-  USBDevice.setManufacturerDescriptor(mfgstr);
-  USBDevice.setProductDescriptor(prodstr);
-  USBDevice.setSerialDescriptor(serialstr);
+  // USB Setup
 
-  Serial.begin(115200);
+  tud_init(BOARD_TUD_RHPORT);
 
   mdp.isMonome = true;
   mdp.deviceID = deviceID;
@@ -77,12 +72,13 @@ void setup()
   //? wait for ready ?
   while (var < 8) 
   {
+    tud_task(); //? for what ? 
     mdp.poll();
     var++;
     delay(100);
   }
 
-  Serial.println("set up finished");
+  // Serial.println("set up finished");
 
   // test and reset
   mdp.setAllLEDs(15);
@@ -99,6 +95,7 @@ void setup()
 
 void loop() 
 {
+  tud_task();
   mdp.poll();
 
   if (isInited && monomeRefresh > 16)

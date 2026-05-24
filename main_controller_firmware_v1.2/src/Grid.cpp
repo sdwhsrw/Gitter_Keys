@@ -1,5 +1,7 @@
 #include "Grid.h"
 #include "Cell.h"
+#include "tusb.h"
+
 
 Grid::Grid(Cell *cells, uint8_t cellRow, uint8_t cellCol) : 
 p_pCells(cells), p_iCellRow(cellRow), p_iCellCol(cellCol), p_iCellNum(cellRow*cellCol),
@@ -48,9 +50,9 @@ void Grid::vSendGridKey()
 
           uint8_t elementPosX = x*p_iCellSize+((p_pCells+index)->p_iKeyEvent[i][1]);
           uint8_t elementPosY = y*p_iCellSize+((p_pCells+index)->p_iKeyEvent[i][2]);
-          Serial.write(command);
-          Serial.write(elementPosX);
-          Serial.write(elementPosY);
+          uint8_t buffer[3] = {command, elementPosX, elementPosY};
+          tud_cdc_write(buffer, 3);  
+          tud_cdc_write_flush();
         }
       }
       (p_pCells+index)->resetKeyEvent();
