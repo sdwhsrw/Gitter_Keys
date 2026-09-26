@@ -1,3 +1,6 @@
 (sym_lib_table
-  (version 7)
+	(version 7)
+	(lib (name "grid") (type "KiCad") (uri "/Users/ruowen/Library/CloudStorage/OneDrive-Personal/DIY/KICAD/symbol lib/grid.kicad_sym") (options "") (descr ""))
+	(lib (name "EuroRasp") (type "KiCad") (uri "/Users/ruowen/Library/CloudStorage/OneDrive-Personal/DIY/KICAD/symbol lib/EuroRasp.kicad_sym") (options "") (descr ""))
+	(lib (name "chenghao") (type "KiCad") (uri "/Users/ruowen/Library/CloudStorage/OneDrive-Personal/DIY/KICAD/symbol lib/chenghao.kicad_sym") (options "") (descr ""))
 )

@@ -1,0 +1,184 @@
+** Drc report for Machenical_Cell_4x4_v1.1.kicad_pcb **
+** Created on 2026-09-23T13:18:16 **
+** Report includes: Errors **
+
+** Found 0 DRC violations **
+
+** Found 41 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2241.00 mils, 4330.00 mils): Pad 1 [GND] of J19 on B.Cu
+    @(2241.00 mils, 4330.00 mils): Pad 1 [GND] of J7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2241.00 mils, 4330.00 mils): Pad 1 [GND] of J19 on B.Cu
+    @(2241.00 mils, 4420.00 mils): Pad 2 [GND] of J19 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2241.00 mils, 4330.00 mils): Pad 1 [GND] of J19 on B.Cu
+    @(2335.00 mils, 4120.63 mils): Pad 1 [GND] of R9 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2241.00 mils, 4420.00 mils): Pad 2 [GND] of J19 on B.Cu
+    @(2241.00 mils, 4420.00 mils): Pad 2 [GND] of J7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2241.00 mils, 4420.00 mils): Pad 2 [GND] of J19 on B.Cu
+    @(2335.00 mils, 4870.63 mils): Pad 1 [GND] of R13 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2330.00 mils, 3370.63 mils): Pad 1 [GND] of R5 on B.Cu
+    @(2875.80 mils, 3600.00 mils): PTH pad 38 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2335.00 mils, 4870.63 mils): Pad 1 [GND] of R13 on B.Cu
+    @(3070.00 mils, 4870.63 mils): Pad 1 [GND] of R14 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2875.80 mils, 2900.00 mils): PTH pad 3 [GND] of Pico1
+    @(2340.00 mils, 2620.63 mils): Pad 1 [GND] of R1 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3075.00 mils, 3375.63 mils): Pad 1 [GND] of R6 on B.Cu
+    @(2875.80 mils, 3600.00 mils): PTH pad 38 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3075.00 mils, 3375.63 mils): Pad 1 [GND] of R6 on B.Cu
+    @(2875.80 mils, 2900.00 mils): PTH pad 3 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3085.00 mils, 2620.63 mils): Pad 1 [GND] of R2 on B.Cu
+    @(2875.80 mils, 2900.00 mils): PTH pad 3 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3090.00 mils, 4125.63 mils): Pad 1 [GND] of R10 on B.Cu
+    @(2875.80 mils, 3600.00 mils): PTH pad 38 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3375.80 mils, 2900.00 mils): PTH pad 8 [GND] of Pico1
+    @(3085.00 mils, 2620.63 mils): Pad 1 [GND] of R2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3775.00 mils, 4377.00 mils): PTH pad 5 [GND] of J25
+    @(3714.94 mils, 4510.00 mils): Pad 3 [GND] of U1 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3800.00 mils, 4870.63 mils): Pad 1 [GND] of R15 on B.Cu
+    @(3714.94 mils, 4510.00 mils): Pad 3 [GND] of U1 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3800.00 mils, 4870.63 mils): Pad 1 [GND] of R15 on B.Cu
+    @(4330.00 mils, 5009.00 mils): Pad 1 [GND] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3800.00 mils, 4870.63 mils): Pad 1 [GND] of R15 on B.Cu
+    @(3070.00 mils, 4870.63 mils): Pad 1 [GND] of R14 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3815.00 mils, 3375.63 mils): Pad 1 [GND] of R7 on B.Cu
+    @(3875.80 mils, 2900.00 mils): PTH pad 13 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3850.00 mils, 4120.63 mils): Pad 1 [GND] of R11 on B.Cu
+    @(3875.80 mils, 3600.00 mils): PTH pad 28 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3875.00 mils, 4377.00 mils): PTH pad 6 [GND] of J25
+    @(3775.00 mils, 4377.00 mils): PTH pad 5 [GND] of J25
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3875.00 mils, 4377.00 mils): PTH pad 6 [GND] of J25
+    @(3850.00 mils, 4120.63 mils): Pad 1 [GND] of R11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3875.80 mils, 2900.00 mils): PTH pad 13 [GND] of Pico1
+    @(3845.00 mils, 2620.63 mils): Pad 1 [GND] of R3 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3875.80 mils, 2900.00 mils): PTH pad 13 [GND] of Pico1
+    @(4375.80 mils, 2900.00 mils): PTH pad 18 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3875.80 mils, 2900.00 mils): PTH pad 13 [GND] of Pico1
+    @(3375.80 mils, 2900.00 mils): PTH pad 8 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3875.80 mils, 3600.00 mils): PTH pad 28 [GND] of Pico1
+    @(3815.00 mils, 3375.63 mils): Pad 1 [GND] of R7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3875.80 mils, 3600.00 mils): PTH pad 28 [GND] of Pico1
+    @(4375.80 mils, 3600.00 mils): PTH pad 23 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4330.00 mils, 2241.00 mils): Pad 1 [GND] of J13 on B.Cu
+    @(4330.00 mils, 2241.00 mils): Pad 1 [GND] of J1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4330.00 mils, 5009.00 mils): Pad 1 [GND] of J4 on F.Cu
+    @(4330.00 mils, 5009.00 mils): Pad 1 [GND] of J16 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4330.00 mils, 5009.00 mils): Pad 1 [GND] of J4 on F.Cu
+    @(4420.00 mils, 5009.00 mils): Pad 2 [GND] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4375.80 mils, 3600.00 mils): PTH pad 23 [GND] of Pico1
+    @(4555.00 mils, 3375.63 mils): Pad 1 [GND] of R8 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4375.80 mils, 3600.00 mils): PTH pad 23 [GND] of Pico1
+    @(4585.00 mils, 4120.63 mils): Pad 1 [GND] of R12 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4420.00 mils, 2241.00 mils): Pad 2 [GND] of J13 on B.Cu
+    @(4420.00 mils, 2241.00 mils): Pad 2 [GND] of J1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4420.00 mils, 2241.00 mils): Pad 2 [GND] of J1 on F.Cu
+    @(4330.00 mils, 2241.00 mils): Pad 1 [GND] of J1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4420.00 mils, 5009.00 mils): Pad 2 [GND] of J4 on F.Cu
+    @(4420.00 mils, 5009.00 mils): Pad 2 [GND] of J16 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4420.00 mils, 5009.00 mils): Pad 2 [GND] of J4 on F.Cu
+    @(4550.00 mils, 4870.63 mils): Pad 1 [GND] of R16 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4575.00 mils, 2620.63 mils): Pad 1 [GND] of R4 on B.Cu
+    @(4375.80 mils, 2900.00 mils): PTH pad 18 [GND] of Pico1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4575.00 mils, 2620.63 mils): Pad 1 [GND] of R4 on B.Cu
+    @(4420.00 mils, 2241.00 mils): Pad 2 [GND] of J1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4585.00 mils, 4120.63 mils): Pad 1 [GND] of R12 on B.Cu
+    @(5009.00 mils, 4330.00 mils): Pad 1 [GND] of J10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5009.00 mils, 4330.00 mils): Pad 1 [GND] of J22 on B.Cu
+    @(5009.00 mils, 4330.00 mils): Pad 1 [GND] of J10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5009.00 mils, 4420.00 mils): Pad 2 [GND] of J22 on B.Cu
+    @(5009.00 mils, 4420.00 mils): Pad 2 [GND] of J10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5009.00 mils, 4420.00 mils): Pad 2 [GND] of J10 on F.Cu
+    @(5009.00 mils, 4330.00 mils): Pad 1 [GND] of J10 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
