@@ -531,6 +531,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_names
@@ -626,142 +904,6 @@
 					(length 0)
 					(hide yes)
 					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VCC"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1401,84 +1543,6 @@
 		(uuid "ffa163fc-f882-4ab9-af35-102873578e5f")
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 124.46 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "003a697c-f1a7-4822-a044-1bccf1232fe5")
-		(property "Reference" "#PWR042"
-			(at 120.65 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 128.27 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aefaaa40-50a0-4075-8661-814b57a05319")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 69.85 125.73 0)
 		(unit 1)
@@ -1552,6 +1616,164 @@
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
 					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 41.91 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0431aba0-59af-4ee0-a8cd-ada9489fdb7e")
+		(property "Reference" "#PWR028"
+			(at 38.1 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 45.72 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 41.91 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "595be482-f7f4-4d05-b521-0244c777070a")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a5a0e7e-a1b2-4504-9aa7-5fa460457f41")
+		(property "Reference" "#PWR056"
+			(at 39.37 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 46.99 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f125bc6-dd94-4045-8603-83e3494c6e0d")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -1715,162 +1937,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 71.12 62.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "133098f2-7bdf-4c1b-a7ee-7238e82bbf53")
-		(property "Reference" "#PWR055"
-			(at 67.31 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 74.93 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ad4023d-9360-496e-a1c2-284eb4c623ba")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 127 118.11 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "155d16c0-8f6a-4219-b4a9-87cd980dfea0")
-		(property "Reference" "#PWR032"
-			(at 123.19 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 130.81 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4be62ba-9305-413b-b2a9-98fb704ed35e")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 106.68 90)
 		(unit 1)
@@ -1949,8 +2015,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 154.94 59.69 270)
+		(lib_id "power:+3V3")
+		(at 127 115.57 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1959,9 +2025,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2450d822-e4b6-474d-9e49-d71c3fe87092")
-		(property "Reference" "#PWR041"
-			(at 151.13 59.69 0)
+		(uuid "21f11ed0-b441-4269-a19b-42d91dbd389f")
+		(property "Reference" "#PWR032"
+			(at 123.19 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,8 +2037,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 158.75 59.69 90)
+		(property "Value" "+3V3"
+			(at 130.81 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1983,7 +2049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 59.69 0)
+			(at 127 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1994,7 +2060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 59.69 0)
+			(at 127 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2004,8 +2070,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 127 115.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2015,12 +2082,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "20486db8-fb84-4b8a-a649-1346bf41c804")
+			(uuid "b9e7ad3e-3a7a-47e3-be4d-bfcb8df44198")
 		)
 		(instances
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR041")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 71.12 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22aa8cc6-dbaf-44b3-a5eb-1d1f15e78242")
+		(property "Reference" "#PWR051"
+			(at 67.31 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 74.93 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed3ed9f7-ec8a-458a-8a77-dd4c89c9908c")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2177,6 +2323,164 @@
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 154.94 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37ce83bc-65bd-4f9d-824c-df17a04e33b3")
+		(property "Reference" "#PWR046"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 158.75 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 154.94 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6a36521-28f4-4bba-8781-816411eb7dff")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "386f5ef4-11d9-4e81-aea5-8dbdcc51dde7")
+		(property "Reference" "#PWR052"
+			(at 39.37 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 46.99 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5557925-1d9f-47d2-98c1-24e56622bfbb")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2420,6 +2724,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 44.45 163.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d5a6f26-646d-455a-ab4c-f7ddde145d24")
+		(property "Reference" "#PWR027"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 48.26 163.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 44.45 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b7b0fb3-5f14-48d7-9438-223cdcb7805f")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 106.68 90)
 		(unit 1)
@@ -2492,162 +2875,6 @@
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 43.18 62.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ea2a626-2494-49e4-b4c8-ea7f1a604bc4")
-		(property "Reference" "#PWR056"
-			(at 39.37 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 46.99 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55a1babd-b9ec-4424-93dc-d134f3fe5b32")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 41.91 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51da011d-14e7-4a75-9644-c01c65ba2b27")
-		(property "Reference" "#PWR028"
-			(at 38.1 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 45.72 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2de8753a-c432-4ee2-86d8-8b3590e072b3")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2810,8 +3037,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 41.91 116.84 270)
+		(lib_id "power:+3V3")
+		(at 154.94 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2820,9 +3047,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "655637d0-2c45-4589-91db-0e33ed2ba80d")
-		(property "Reference" "#PWR054"
-			(at 38.1 116.84 0)
+		(uuid "6935468b-3abe-4a49-81c7-219449e7e8a8")
+		(property "Reference" "#PWR041"
+			(at 151.13 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2832,8 +3059,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 45.72 116.84 90)
+		(property "Value" "+3V3"
+			(at 158.75 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2844,7 +3071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 116.84 0)
+			(at 154.94 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2855,7 +3082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 116.84 0)
+			(at 154.94 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2865,8 +3092,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 41.91 116.84 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 154.94 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2876,12 +3104,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "007e7448-6a31-4a38-ac96-0597af48dded")
+			(uuid "4253bfdc-533f-49a8-8c4d-a3b1e3660683")
 		)
 		(instances
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR054")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2966,8 +3194,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 71.12 59.69 270)
+		(lib_id "power:+3V3")
+		(at 74.93 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2976,9 +3204,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7492252c-c7fa-4adf-937a-5c743ee23afa")
-		(property "Reference" "#PWR051"
-			(at 67.31 59.69 0)
+		(uuid "6f5e23df-4804-4242-a15b-d2098a604927")
+		(property "Reference" "#PWR053"
+			(at 71.12 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2988,8 +3216,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 74.93 59.69 90)
+		(property "Value" "+3V3"
+			(at 78.74 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3000,7 +3228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 59.69 0)
+			(at 74.93 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3011,7 +3239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 59.69 0)
+			(at 74.93 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3021,8 +3249,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 71.12 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 74.93 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3032,90 +3261,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "28b92a62-b3ee-4a73-8dec-f6d807d95c01")
+			(uuid "d6a02692-8438-4139-9d8b-693a56a27793")
 		)
 		(instances
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 44.45 163.83 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74ce05ba-f509-41fe-84b9-cf4f70af4c4a")
-		(property "Reference" "#PWR057"
-			(at 40.64 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 48.26 163.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f462be45-e691-4bac-877c-1136fac83c6f")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR057")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3279,6 +3430,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 124.46 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c7710f2-0f4b-4477-91eb-d987cd70615f")
+		(property "Reference" "#PWR042"
+			(at 120.65 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 128.27 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa0ea977-ae3b-4fc4-b980-4228d2fa8b7c")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 50.8 90)
 		(unit 1)
@@ -3430,84 +3660,6 @@
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
 					(reference "J23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 43.18 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e785d10-c598-4fef-b53d-0c8c323b78b8")
-		(property "Reference" "#PWR052"
-			(at 39.37 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 46.99 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6bd9b6a1-8e05-4512-b431-7aae88e766c3")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3672,84 +3824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 74.93 116.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84a44e96-367e-4789-a460-a65b13188cfc")
-		(property "Reference" "#PWR053"
-			(at 71.12 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 78.74 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eef36ccc-05c3-4d83-a693-a6821618c135")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 66.04 48.26 0)
 		(unit 1)
@@ -3829,8 +3903,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 161.29 115.57 270)
+		(lib_id "power:+3V3")
+		(at 74.93 116.84 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3839,9 +3913,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "875a6a6c-2701-49ba-9f58-00b6ddd7823e")
-		(property "Reference" "#PWR049"
-			(at 157.48 115.57 0)
+		(uuid "87bb9c2b-9579-41df-ab7a-2f9978742900")
+		(property "Reference" "#PWR063"
+			(at 71.12 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3851,8 +3925,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 165.1 115.57 90)
+		(property "Value" "+3V3"
+			(at 78.74 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3863,7 +3937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 115.57 0)
+			(at 74.93 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3874,7 +3948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 115.57 0)
+			(at 74.93 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3884,8 +3958,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 161.29 115.57 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 74.93 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3895,12 +3970,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "df97d0e8-a955-4a0d-a572-665552e21eb9")
+			(uuid "11c76217-6ce9-49c8-bf3a-36d00ba31c97")
 		)
 		(instances
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR049")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4379,6 +4454,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 127 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a20cdd3-5449-4d07-a4aa-fd53e7a65ce5")
+		(property "Reference" "#PWR050"
+			(at 123.19 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 130.81 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 127 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cecc70bc-2cf0-4574-88e2-d1eada408dea")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 105.41 90)
 		(unit 1)
@@ -4451,6 +4605,85 @@
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 71.12 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a543d390-8cf3-4ae1-a311-a23ef84f45c0")
+		(property "Reference" "#PWR055"
+			(at 67.31 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 74.93 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ee7b396-ee80-42e9-8041-978378134448")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4863,7 +5096,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "power:+3V3")
 		(at 161.29 118.11 270)
 		(unit 1)
 		(body_style 1)
@@ -4873,8 +5106,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "abff6516-8565-43a8-81ec-10945e02a98f")
-		(property "Reference" "#PWR031"
+		(uuid "aac8ef54-a81d-4f4f-8166-ca9bec9741f7")
+		(property "Reference" "#PWR049"
 			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4885,8 +5118,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 165.1 118.11 90)
+		(property "Value" "+3V3"
+			(at 165.1 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4918,8 +5151,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 161.29 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4929,20 +5163,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "47ea3509-f058-42c0-b054-4d25b594ccea")
+			(uuid "25e79c86-fdcb-4904-9428-24554d0b4d21")
 		)
 		(instances
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR031")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 127 115.57 270)
+		(lib_id "power:+3V3")
+		(at 41.91 116.84 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4951,9 +5185,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af868eef-fc1f-4b58-82b9-6691f481434d")
-		(property "Reference" "#PWR050"
-			(at 123.19 115.57 0)
+		(uuid "abdd6091-ac8b-498c-8ee7-9378d5d1e298")
+		(property "Reference" "#PWR054"
+			(at 38.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4963,8 +5197,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 130.81 115.57 90)
+		(property "Value" "+3V3"
+			(at 45.72 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4975,7 +5209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 115.57 0)
+			(at 41.91 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4986,7 +5220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 115.57 0)
+			(at 41.91 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,8 +5230,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 127 115.57 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 41.91 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5007,12 +5242,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c47963c-66d8-4ae4-a8ed-a548b78ea1a4")
+			(uuid "59a95443-ddc8-4a2f-9a38-58297c0a7123")
 		)
 		(instances
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR050")
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 161.29 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b70023a3-f644-41fe-82d0-a15432bfc087")
+		(property "Reference" "#PWR031"
+			(at 157.48 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 161.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a7e93a7-164d-4686-adfe-b41bdb1b0244")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5169,6 +5483,85 @@
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 124.46 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd0bbfd7-a8c3-43f6-a30b-8059ed10c760")
+		(property "Reference" "#PWR045"
+			(at 120.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 128.27 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 124.46 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1740c520-9c7a-4d12-ad54-0923f10151b7")
+		)
+		(instances
+			(project "Machenical_Cell_4x4_v1.1"
+				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5332,84 +5725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 124.46 62.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb2198f9-604b-495a-ae60-47ae0743d822")
-		(property "Reference" "#PWR045"
-			(at 120.65 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 128.27 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6904e240-1e32-4659-be9d-2c3f647d7c02")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 119.38 46.99 0)
 		(unit 1)
@@ -5562,162 +5877,6 @@
 			(project "Machenical_Cell_4x4_v1.1"
 				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 154.94 62.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9f3b07f-30fb-40f0-ae69-fb55ca44b16b")
-		(property "Reference" "#PWR046"
-			(at 151.13 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 158.75 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16f5b0cf-9b33-4c3d-b458-92130873a0f3")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 74.93 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9762f07-88a5-47bf-b99a-459618e91449")
-		(property "Reference" "#PWR027"
-			(at 71.12 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 78.74 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff5c4677-5908-44a2-af80-178709603d1b")
-		)
-		(instances
-			(project "Machenical_Cell_4x4_v1.1"
-				(path "/d21a18dc-6ec8-40b5-92d2-c49c2460e192/6493b8d7-4a42-481c-9aa4-731c24b405b5"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
